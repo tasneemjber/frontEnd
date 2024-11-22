@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="assets/img/navbarimg/logo.svg" alt="logo">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active home-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="palestineCategory.html">
+                Palestine Categories
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Browse Categories
+              </a>
+              <ul class="Categories-menu" aria-labelledby="navbarCategoriesmenulink">
+                <ul>
+                  <li><a href="womCloth.html">Women's Clothing</a></li>
+                  <li><a href="menCloth.html">Men's Clothing</a></li>
+                  <li><a href="jewelry.html">Jewelry &amp; Accessories</a></li>
+                  <li><a href="shos.html">Shoes</a></li>
+                  <li><a href="hats.html">Hats</a></li>
+                  <li><a href="Scarves.html">Scarves</a></li>
+
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <section class="mt-50 mb-50">
+          <a class="mini-cart-icon" href="index.html">
+            <img alt="Cart Icon" src="assets/img/navbarimg/icon-cart.svg">
+            <span class="pro-count blue">2</span>
+          </a>
+        </section>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section1">
+      <div id="slider-container">
+        <div class="slider-item active">
+          <div class="container overflow-hidden">
+            <div class="row gx-4">
+              <div class="col">
+                <div class="pargraph">
+                  <div class="hero-slider-content-2">
+                    <h4 class="animated">Trade-In Offer</h4>
+                    <h3 class="animated fw-900">Supper Value Deals</h3>
+                    <h2 class="animated fw-900 text-brand">On All Products</h2>
+                    <p class="animated">Save more with coupons &amp; up to 70% off</p>
+                    <a class="animated btn btn-brush btn-brush-3" href="Scarves.html" tabindex="0"> Shop Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="assets/img/section1img/img1.png" alt="Promo Image 1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="container overflow-hidden">
+            <div class="row gx-4">
+              <div class="col">
+                <div class="pargraph">
+                  <div class="hero-slider-content-2">
+                    <h4 class="animated">Hot promotions</h4>
+                    <h3 class="animated fw-900">Fashion Trending</h3>
+                    <h2 class="animated fw-900 text-brand">Great Collection</h2>
+                    <p class="animated">Save more with coupons &amp; up to 20% off</p>
+                    <a class="animated btn btn-brush btn-brush-1" href="shop-product-right.html" tabindex="0">Get It
+                      Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="assets/img/section1img/img2.png" alt="Promo Image 2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="slick-dots">
+        <li><button data-slide="0"></button></li>
+        <li><button data-slide="1"></button></li>
+      </ul>
+
+      <div class="slider-arrow">
+        <button class="slider-btn slider-prev">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="slider-btn slider-next">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div class="section2">
+        <img src="assets/img/section2/banner-4.png" class="img-fluid" alt="Banner Image">
+        <h3>Repair Services</h3>
+        <h1>Women's clothing <br>Sale and new collections</h1>
+        <a href="womCloth.html" class="btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <section class="popular-categories container my-5">
+      <div class="row position-relative">
+        <div class="col-12 d-flex justify-content-between align-items-center mb-4">
+          <h2 class="mb-0">Popular <span class="text-success">Categories</span></h2>
+         
+        </div>
+        <div class="col-12 overflow-hidden">
+          <div class="d-flex carousel-track" id="carouselTrack">
+            <div class="category-card text-center mx-2">
+              <img src="assets/img/section3/hats.jpg" alt="Hats" class="img-fluid">
+              <p>Hats</p>
+            </div>
+            <div class="category-card text-center mx-2">
+              <img src="assets/img/menuCategories/clothMen/tshir1.jpg" alt="T-Shirt" class="img-fluid">
+              <p>T-Shirt</p>
+            </div>
+            <div class="category-card text-center mx-2">
+              <img src="assets/img/menuCategories/jewelry&accessories/j9.jpg" alt="Bags" class="img-fluid">
+              <p>Bags</p>
+            </div>
+            <div class="category-card text-center mx-2">
+              <img src="assets/img/section3/sanda.jpg" alt="Sandan" class="img-fluid">
+              <p>Sandan</p>
+            </div>
+            <div class="category-card text-center mx-2">
+              <img src="assets/img/section3/scraf.jpg" alt="Scarf Cap" class="img-fluid">
+              <p>Scarf Cap</p>
+            </div>
+            <div class="category-card text-center mx-2">
+              <img src="assets/img/menuCategories/shos/shos2.jpg" alt="Shoes" class="img-fluid">
+              <p>Shoes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <section class="banners mb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="banner-img wow fadeIn animated animated animated" style="visibility: visible;">
+                        <img src="assets/img/section4/bags.png" alt="">
+                        <div class="banner-text">
+                            <span>Smart Offer</span>
+                            <h4>Save 20% on <br>Woman Bag</h4>
+                            <a href="jewelry.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="banner-img wow fadeIn animated animated animated" style="visibility: visible;">
+                        <img src="assets/img/section4/hats.png" alt="">
+                        <div class="banner-text">
+                            <span>Sale off</span>
+                            <h4>Great Summer <br>Collection</h4>
+                            <a href="hats.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-md-none d-lg-flex">
+                    <div class="banner-img wow fadeIn animated  mb-sm-0 animated animated" style="visibility: visible;">
+                        <img src="assets/img/section4/scarf.png" alt="">
+                        <div class="banner-text">
+                            <span>New Arrivals</span>
+                            <h4>Shop Today’s <br>Deals &amp; Offers</h4>
+                            <a href="Scarves.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <section class="section-padding">
+      <div class="container pb-20">
+        <div class="section-title-container">
+          <h3 class="section-title mb-20">
+            <span>Featured</span> Brands
+          </h3>
+        </div>
+        <div class="carausel-6-columns-cover position-relative">
+          <div class="carausel-6-columns">
+            <div class="brand-logo"><img src="assets/img/section6/brand-4.png" alt="Brand 1"></div>
+            <div class="brand-logo"><img src="assets/img/section6/brand-5.png" alt="Brand 2"></div>
+            <div class="brand-logo"><img src="assets/img/section6/brand-6 (1).png" alt="Brand 3"></div>
+            <div class="brand-logo"><img src="assets/img/section6/brand-1.png" alt="Brand 4"></div>
+            <div class="brand-logo"><img src="assets/img/section6/brand-2.png" alt="Brand 5"></div>
+            <div class="brand-logo"><img src="assets/img/section6/brand-3.png" alt="Brand 6"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+ 
+  </main>
+
+  <footer>
+    <section class="section-padding footer-mid">
+      <div class="container pt-15 pb-20">
+          <div class="row">
+              <div class="col-lg-4 col-md-6">
+                  <div class="widget-about font-md mb-md-5 mb-lg-0">
+                      <div class="logo logo-width-1 wow fadeIn animated animated animated" style="visibility: visible;">
+                          <a href="index.html"><img src="assets/img/navbarimg/logo.svg" alt="logo"></a>
+                      </div>
+                      <h5 class="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated animated animated" style="visibility: visible;">Contact</h5>
+                      <p class="wow fadeIn animated animated animated" style="visibility: visible;">
+                          <strong>Address: </strong>562 Wellington Road, Street 32, San Francisco
+                      </p>
+                      <p class="wow fadeIn animated animated animated" style="visibility: visible;">
+                          <strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789
+                      </p>
+                      <p class="wow fadeIn animated animated animated" style="visibility: visible;">
+                          <strong>Hours: </strong>10:00 - 18:00, Mon - Sat
+                      </p>
+                      <h5 class="mb-10 mt-30 fw-600 text-grey-4 wow fadeIn animated animated animated" style="visibility: visible;">Follow Us</h5>
+                      <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated animated" style="visibility: visible;">
+                          <a href="#"><img src="assets/img/footer/facebock.svg" alt=""></a>
+                          <a href="#"><img src="assets/img/footer/icon-twitter.svg" alt=""></a>
+                          <a href="#"><img src="assets/img/footer/icon-instagram.svg" alt=""></a>
+                          <a href="#"><img src="assets/img/footer/icon-pinterest.svg" alt=""></a>
+                          <a href="#"><img src="assets/img/footer//icon-youtube.svg" alt=""></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-3">
+                  <h5 class="widget-title wow fadeIn animated animated animated" style="visibility: visible;">About</h5>
+                  <ul class="footer-list wow fadeIn animated mb-sm-5 mb-md-0 animated animated" style="visibility: visible;">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Delivery Information</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms &amp; Conditions</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Support Center</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-2  col-md-3">
+                  <h5 class="widget-title wow fadeIn animated animated animated" style="visibility: visible;">My Account</h5>
+                  <ul class="footer-list wow fadeIn animated animated animated" style="visibility: visible;">
+                      <li><a href="#">Sign In</a></li>
+                      <li><a href="#">View Cart</a></li>
+                      <li><a href="#">My Wishlist</a></li>
+                      <li><a href="#">Track My Order</a></li>
+                      <li><a href="#">Help</a></li>
+                      <li><a href="#">Order</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-4">
+                  <h5 class="widget-title wow fadeIn animated animated animated" style="visibility: visible;">Install App</h5>
+                  <div class="row">
+                      <div class="col-md-8 col-lg-12">
+                          <p class="wow fadeIn animated animated animated" style="visibility: visible;">From App Store or Google Play</p>
+                          <div class="download-app wow fadeIn animated animated animated" style="visibility: visible;">
+                              <a href="#" class="hover-up mb-sm-4 mb-lg-0"><img class="active" src="assets/img/footer/app-store.jpg" alt=""></a>
+                              <a href="#" class="hover-up"><img src="assets/img/footer/google-play.jpg" alt=""></a>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-lg-12 mt-md-3 mt-lg-0">
+                          <p class="mb-20 wow fadeIn animated animated animated" style="visibility: visible;">Secured Payment Gateways</p>
+                          <img class="wow fadeIn animated animated animated" src="assets/img/footer/payment-method.png" alt="" style="visibility: visible;">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
